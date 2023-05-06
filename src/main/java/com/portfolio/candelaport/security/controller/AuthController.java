@@ -32,7 +32,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 //@RequestMapping("/auth")
-@CrossOrigin(origins = {"https://porttfolio-frontend.web.app"})
+@CrossOrigin(origins = {"https://porttfolio-frontend.web.app","http://localhost:4200"})
 public class AuthController {
     
     @Autowired
@@ -50,7 +50,7 @@ public class AuthController {
     
     
      
-    @PostMapping("auth/nuevo")
+    @PostMapping("/auth/nuevo")
     public ResponseEntity<?> nuevo(@Valid @RequestBody NuevoUsuario nuevoUsuario, BindingResult bindingResult){
         if(bindingResult.hasErrors())
             return new ResponseEntity(new Mensaje("Campos mal puestos o email invalido"),HttpStatus.BAD_REQUEST);
@@ -78,7 +78,7 @@ public class AuthController {
     
     
     
-    @PostMapping("auth/login")
+    @PostMapping("/auth/login")
     public ResponseEntity<JwtDto> login(@Valid @RequestBody LoginUsuario loginUsuario, BindingResult bindingResult){
       if(bindingResult.hasErrors())
           return new ResponseEntity(new Mensaje("Campos mal puestos"),HttpStatus.BAD_REQUEST);
