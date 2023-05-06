@@ -41,7 +41,7 @@ para habilitar la edicion para todos, ambos tienen un nombre y una contraseña e
 
 3. Crear una tabla vacia de mysql a traves de XAMPP y conectandola en el archivo application.properties
 <div align="center">
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizjSUlpjogQ6D10aADbJZAAv78Iw9DZwCZJISC61p0MQSuKwSvYVwpi7yf4y_TcyjFrAxe9LGqYyhFC3adBZrMFqaQq0uYsq2d04ZpkPcOKYLZLThE7ZGv--ojDDeBt4AZ0l2Z_RE24_GZ0htp6jsfBfAD21Bv73KXBEGj-_JrvQVGLRieQ16I3zwP/s949/opagina3.png">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMpJm8IbaHL1iC5_oCCEmU9PQ9eq_6hIfbGKVyTJnaBfAMGfq8BXm0lGNw0bd5E3YVlHJad99LRb9XgmgP1dgkDMmClUIQfviqxu7DX6-rM254bArfm5ir4IpwiE59H28ABC3GAiwqbXyjbCVIG-clsaEqObRsTRpK58B8bqIUkcEOvuYlvDtbha3r/s1254/pagina222222.png">
 
 </div>
 4.Modificar los siguientes archivos 
